@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+int p,n,r,si,ci;
+printf("enter the principal amount,number of years,rate of interest\n");
+scanf("%d%d%d",&p,&n,&r);
+si=(p*n*r)/100;
+ci=pow(1+(p/r),n);
+printf("si=%d,ci=%d",si,ci);
+}
+

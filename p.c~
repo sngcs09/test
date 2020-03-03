@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{
+int r,nj;
+printf("enter a number\n");
+scanf("%d",&n);
+j=pow
+
